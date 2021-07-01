@@ -1,0 +1,154 @@
+{
+    "main": {
+        "name": "Patrick Charlton",
+        "occupation": "Software Developer",
+        "description": "focused on building mobile and web applications with eye-catching UIs and seamless UX design.",
+        "image": "profilepic.jpg",
+        "bio": "There are a few things I hold dear to me in this life – my health, my work, and my happiness.\n\n Throughout my four years at Willamette University I played forward for the men’s soccer team, helping win the NWC Conference in 2017 and continuing onto the NCAA tournament that year. With that in the rear-view, I am constantly looking for ways to push myself physically and demand even more of my body. I have swapped waking up at 5 AM for morning workouts with the search for either untouched snow deep in the backcountry or a pretty sunrise.\n\n In the same way I seek to condition my body I also aim to condition my mind. My life would be nothing without music and math. Although quite different, what I love most about each of these is the mental exercise. Learning a Paganini and trying to compose a similar tune hit very similar parts of the brain that, say, learning about K-means algorithms and implementing those machine learning concepts for a new project do. Just as I need physical activity in my life, so do I need mental activity. And although it may get frustrating at times, the more rigorous the exercise the more happiness I gain.",
+        "contactmessage": "Feel free to contact me below.",
+        "email": "patrick.charlton6@gmail.com",
+        "phone": "360-774-0560",
+        "address": {
+            "street": "107 N Cook Street",
+            "city": "Portland",
+            "state": "Oregon",
+            "zip": "97227"
+        },
+        "website": "http://www.github/patadactyl",
+        "resumedownload": "https://www.linkedin.com/in/patrick-charlton/",
+        "social": [{
+                "name": "facebook",
+                "url": "https://www.facebook.com/patrick.charlton.3950/",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/PatrickCharlt17",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/patrick-charlton/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/top_slav/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/patadactyl",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Languages and Frameworks listed by proficiency",
+        "education": [{
+            "school": "Willamette University",
+            "degree": "Bachelor of Arts in Computer Science",
+            "graduated": "May 2020",
+            "description": "I spent most of my time running between the music studio, the soccer pitch, and the research lab. \nI created Willamette's Mobile App Development Club for students to collaborate and learn real-world skills, served as the Community Service Chair for the Delta Zeta chapter of the Sigma Chi Fraternity, and let off steam playing electric violin (yes, electric violin) for a local band, Call Falck."
+        }],
+        "work": [{
+                "company": "Oregon Health & Science University",
+                "title": "Research Assistant 2",
+                "years": "November 2020 - Present",
+                "description": "Conducted research in collaboration with clinical researchers in the Division of Pulmonary and Critical Care Medicine at OHSU to improve the quality and standard of healthcare for critical care and pulmonary disease patients, and enhance patient-clinician communication."
+            },
+            {
+                "company": "Happy Hour App",
+                "title": "Frontend Engineer Intern",
+                "years": "August 2020 - March 2021",
+                "description": "Helped develop a React Native mobile app on iOS and Android to provide an interactive map for happy hour deals and promotions for local bars and restaurants in the user’s area. \nDesigned the client-side website’s landing page, including icons, for onboarding bars and restaurants and implemented those designs using the Bootstrap 4 framework."
+            },
+            {
+                "company": "Artist Integrated",
+                "title": "Android Developer",
+                "years": "September 2019 - May 2020",
+                "description": "Developed a location-based Android app with an MVVM architecture in Kotlin from design through implementation to provide a platform for artists to collaborate with each other and gain exposure through online methods."
+            },
+            {
+                "company": "Kroger",
+                "title": "Android Engineer Intern",
+                "years": "May 2019 - August 2019",
+                "description": "Collaborated with team members using Scrum Agile Methodology (JIRA, Daily Standup, Sprint Backlog, Retrospectives, GitLab, Code Reviews, Unit Tests) to develop convenient, polished mobile apps for Kroger and its subsidiaries. \nOwned refund and other features on post-order pages, creating a user-friendly environment for consumers to view and interact with their pending, cancelled, and completed orders."
+            }
+        ],
+        "skills": [{
+                "name": "Git",
+                "level": "75%"
+            },
+            {
+                "name": "Kotlin",
+                "level": "75%"
+            },
+            {
+                "name": "Java",
+                "level": "60%"
+            },
+            {
+                "name": "JavaScript",
+                "level": "40%"
+            },
+            {
+                "name": "React",
+                "level": "30%"
+            },
+            {
+                "name": "Python",
+                "level": "50%"
+            },
+            {
+                "name": "Node.js",
+                "level": "30%"
+            },
+            {
+                "name": "Vue.js",
+                "level": "20%"
+            },
+            {
+                "name": "SQL",
+                "level": "30%"
+            },
+            {
+                "name": "MVVM",
+                "level": "65%"
+            },
+            {
+                "name": "MVP",
+                "level": "70%"
+            },
+            {
+                "name": "Dagger",
+                "level": "20%"
+            },
+            {
+                "name": "RxJava",
+                "level": "30%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Happy Hour",
+                "category": "Landing Page design for the Happy Hour App's client-facing website",
+                "image": "happyhour.jpg",
+                "url": "https://www.happyhr.io"
+            },
+            {
+                "title": "Artist Integrated",
+                "category": "Location-based live events app for Android and iOS",
+                "image": "artistintegrated.jpg",
+                "url": "https://www.behance.net/gallery/104075627/Artist-Integrated"
+            },
+            {
+                "title": "Jax",
+                "category": "Illustration I created in Fresco of the beloved doggo Jax",
+                "image": "jax.jpg",
+                "url": "https://www.behance.net/gallery/122621819/Jax"
+            }
+        ]
+    }
+}
