@@ -5,7 +5,7 @@
         "description": "focused on building mobile and web applications with eye-catching UIs and seamless UX design",
         "image": "profilepic.jpg",
         "bio1": "There are a few things I hold dear to me in this life – my health, my work, and my happiness.",
-        "bio2": "Throughout my four years at Willamette University I played forward for the men’s soccer team, became NWC Conference Champions in 2017 and continued onto the NCAA tournament. With that in the rear-view, I am constantly sought fonewr ways to push myself. I swapped 5 AM team workouts for untouched snow on dawn patrol and the opportunity to just sit and appreciate a pretty sunrise here and there.",
+        "bio2": "Throughout my four years at Willamette University I played forward for the men’s soccer team, became NWC Conference Champions in 2017 and continued onto the NCAA tournament. With that in the rear-view, I constantly sought new ways to push myself. I swapped 5 AM team workouts for untouched snow on dawn patrol and the opportunity to just sit and appreciate a pretty sunrise here and there.",
         "bio3": "Just as I condition my body, I would be incomplete if i neglected my mind. What I love most about coding is the constant challenge. Each problem is a puzzle, complex yes, but still a puzzle nonetheless. Sometimes all it takes is seeing it from a different angle. Caffeine helps too. Although it may get frustrating at times, the more rigorous the exercise the more fulfillment gained.",
         "contactmessage": "Feel free to contact me below.",
         "email": "patrick.charlton6@gmail.com",
@@ -19,16 +19,6 @@
         "website": "https://patadactyl.github.io/",
         "resumedownload": "https://pdfhost.io/v/fxjhjgqtq_Resume_for_Software_Engineerpdf.pdf",
         "social": [{
-                "name": "facebook",
-                "url": "https://www.facebook.com/patrick.charlton.3950/",
-                "className": "fa fa-facebook"
-            },
-            {
-                "name": "twitter",
-                "url": "https://twitter.com/PatrickCharlt17",
-                "className": "fa fa-twitter"
-            },
-            {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/patrick-charlton/",
                 "className": "fa fa-linkedin"
