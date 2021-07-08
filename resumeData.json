@@ -16,7 +16,7 @@
             "state": "Oregon",
             "zip": "97227"
         },
-        "website": "https://patadactyl.github.io/",
+        "website": "https://prcharlton.com/",
         "resumedownload": "https://pdfhost.io/v/fxjhjgqtq_Resume_for_Software_Engineerpdf.pdf",
         "social": [{
                 "name": "linkedin",
@@ -73,28 +73,28 @@
                 "level": "75%"
             },
             {
-                "name": "Kotlin",
-                "level": "75%"
-            },
-            {
-                "name": "Java",
-                "level": "60%"
-            },
-            {
                 "name": "JavaScript",
-                "level": "40%"
+                "level": "80%"
             },
             {
                 "name": "React",
-                "level": "30%"
+                "level": "75%"
+            },
+            {
+                "name": "Kotlin",
+                "level": "70%"
+            },
+            {
+                "name": "Java",
+                "level": "80%"
             },
             {
                 "name": "Python",
-                "level": "50%"
+                "level": "60%"
             },
             {
                 "name": "Node.js",
-                "level": "30%"
+                "level": "50%"
             },
             {
                 "name": "Vue.js",
