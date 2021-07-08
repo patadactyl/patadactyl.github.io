@@ -245,7 +245,7 @@ h4,
 h5,
 h6 {
     color: #313131;
-    font-family: 'opensans-light', sans-serif;
+    font-family: 'opensans-bold', sans-serif;
     font-weight: normal;
 }
 
@@ -341,7 +341,7 @@ blockquote:before {
     font-size: 80px;
     line-height: 0px;
     margin: 0;
-    font-family: arial, sans-serif;
+    font-family: 'amaticsc-bold', sans-serif;
     position: absolute;
     top: 30px;
     left: 0;
