@@ -61,7 +61,7 @@ header .banner {
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -71,7 +71,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 90px/1.1em 'AmaticSC-Bold', sans-serif;
+    font: 1.1em 'AmaticSC-Bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -391,7 +391,7 @@ ul#nav li.current a {
     position: relative;
     margin-bottom: 60px;
     background: #ccc;
-    height: 42px;
+    height: 24px;
     border-radius: 3px;
 }
 
@@ -413,8 +413,8 @@ ul#nav li.current a {
     padding-right: 24px;
     background: #313131;
     display: inline-block;
-    height: 42px;
-    line-height: 42px;
+    height: 24px;
+    line-height: 24px;
     border-radius: 3px 0 0 3px;
 }
 
