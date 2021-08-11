@@ -136,6 +136,12 @@
                 "url": "https://www.behance.net/gallery/104075627/Artist-Integrated"
             },
             {
+                "title": "Art Videos",
+                "category": "Progressive Web App to display a list of videos pulled from an API",
+                "image": "art-videos.png",
+                "url": "https://romantic-borg-812440.netlify.app/"
+            },
+            {
                 "title": "Jax",
                 "category": "Illustration created in Fresco of the beloved doggo Jax",
                 "image": "jax.jpg",

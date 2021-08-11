@@ -341,7 +341,7 @@ blockquote:before {
     font-size: 80px;
     line-height: 0px;
     margin: 0;
-    font-family: 'amaticsc-bold', sans-serif;
+    font-family: arial, sans-serif;
     position: absolute;
     top: 30px;
     left: 0;
