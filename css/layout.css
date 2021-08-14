@@ -40,7 +40,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.jpg) no-repeat top center;
+    background: #161415 url(../images/header-background.png) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -238,6 +238,7 @@ ul#nav li.current a {
     background: #2B2B2B;
     padding-top: 96px;
     padding-bottom: 66px;
+    background: #161415 url(../images/overlay-bg.png) no-repeat top center;
     overflow: hidden;
 }
 
@@ -264,8 +265,8 @@ ul#nav li.current a {
 
 #about .profile-pic {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
 }
 
@@ -515,9 +516,17 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
-    padding-top: 90px;
-    padding-bottom: 60px;
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../images/elephant-head.jpg) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 90px;
 }
 
 #portfolio h1 {
