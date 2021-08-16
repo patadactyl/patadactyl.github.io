@@ -39,7 +39,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.png) no-repeat top center;
+    background: #161415 url(../images/header-background.svg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -236,7 +236,8 @@ ul#nav li.current a {
 #about {
     padding-top: 96px;
     padding-bottom: 66px;
-    background: #161415 url(../images/about-bg.png) no-repeat top center;
+    min-height: 500px;
+    background: #161415 url(../images/about-bg.svg) no-repeat top center;
     position: inherit;
     width: 100%;
     background-size: cover !important;
@@ -311,11 +312,10 @@ ul#nav li.current a {
 #resume {
     position: inherit;
     width: 100%;
-    background: #161415 url(../images/resume-bg.png) no-repeat top center;
+    background: #161415 url(../images/background.svg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
-    overflow: hidden;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
@@ -435,7 +435,7 @@ ul#nav li.current a {
 #portfolio {
     position: relative;
     width: 100%;
-    background: #161415 url(../images/portfolio-bg.png) no-repeat top center;
+    background: #161415 url(../images/portfolio-bg.svg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;

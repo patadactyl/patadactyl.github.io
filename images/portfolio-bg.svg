@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00060c"/>
+      <stop offset="1" stop-color="#001222"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdca72"/>
+      <stop offset="1" stop-color="#ec6d69"/>
+    </linearGradient>
+    <clipPath id="clip-portfolio-bg">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="portfolio-bg" clip-path="url(#clip-portfolio-bg)">
+    <rect width="1920" height="1080" fill="url(#linear-gradient)"/>
+    <g id="Group_366" data-name="Group 366" transform="translate(1434.158 -2914.344) rotate(14)">
+      <path id="Polygon_2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-2)"/>
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_366-2" data-name="Group 366" transform="translate(-4632.994 -1281.157) rotate(-37)">
+      <path id="Polygon_2-3" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-2)"/>
+      <path id="Polygon_2-4" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
