@@ -11,8 +11,6 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   h. Contact Section
    i. Footer
 
 ===================================================================== */
@@ -25,7 +23,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-    background: #0f0f0f;
+    background: #00060C;
+    /*#0f0f0f;*/
 }
 
 
@@ -36,12 +35,13 @@ body {
 /* ------------------------------------------------------------------ */
 
 header {
-    height: 800px;
+    height: 100%;
     min-height: 500px;
     width: 100%;
     background: #161415 url(../images/header-background.svg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
+    background-position: top center;
     text-align: center;
     overflow: hidden;
 }
@@ -70,7 +70,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 1.1em 'AmaticSC-Bold', sans-serif;
+    font: 1.1em 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -176,7 +176,8 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-    background-color: #333;
+    background-color: #EC6D69;
+    opacity: 98%;
 }
 
 
@@ -223,7 +224,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: #F06000;
+    color: burlywood;
 }
 
 
@@ -238,8 +239,9 @@ ul#nav li.current a {
     padding-bottom: 66px;
     min-height: 500px;
     background: #161415 url(../images/about-bg.svg) no-repeat top center;
-    position: inherit;
+    position: relative;
     width: 100%;
+    height: 100%;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -258,13 +260,13 @@ ul#nav li.current a {
 
 #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: papayawhip;
     margin-bottom: 12px;
 }
 
 #about p {
     line-height: 30px;
-    color: #7A7A7A;
+    color: azure;
 }
 
 #about .profile-pic {
@@ -333,17 +335,19 @@ ul#nav li.current a {
 
 #resume h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
+    color: papayawhip;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 #resume h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid #0F9095;
     padding-bottom: 6px;
 }
 
 #resume h3 {
     font: 25px/30px 'opensans-bold', sans-serif;
+    color: papayawhip;
 }
 
 #resume .header-col {
@@ -352,18 +356,20 @@ ul#nav li.current a {
 
 #resume .main-col {
     padding-right: 10%;
+    color: azure;
 }
 
 .education,
 .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid azure;
 }
 
 #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    color: papayawhip;
+    /*6E7881*/
     margin-bottom: 18px;
     margin-top: 9px;
 }
@@ -371,6 +377,7 @@ ul#nav li.current a {
 #resume .info span {
     margin-right: 5px;
     margin-left: 5px;
+    color: papayawhip;
 }
 
 #resume .date {
@@ -400,14 +407,14 @@ ul#nav li.current a {
 .bars li {
     position: relative;
     margin-bottom: 60px;
-    background: #ccc;
+    background: #313131;
     height: 24px;
     border-radius: 3px;
 }
 
 .bars li em {
     font: 15px 'opensans-bold', sans-serif;
-    color: #313131;
+    color: papayawhip;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: normal;
@@ -421,7 +428,7 @@ ul#nav li.current a {
     top: 0;
     margin: 0;
     padding-right: 24px;
-    background: #313131;
+    background: papayawhip;
     display: inline-block;
     height: 24px;
     line-height: 24px;
@@ -443,12 +450,11 @@ ul#nav li.current a {
 }
 
 #portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
-    text-transform: uppercase;
+    font: 22px/30px 'opensans-bold', sans-serif;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #95A3A3;
+    color: papayawhip;
 }
 
 
@@ -640,396 +646,6 @@ ul#nav li.current a {
 
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
     opacity: 0;
-}
-
-
-/* ------------------------------------------------------------------ */
-
-
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-    background: #212121;
-    padding-top: 66px;
-    padding-bottom: 48px;
-}
-
-#call-to-action h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #fff;
-}
-
-#call-to-action h1 span {
-    display: none;
-}
-
-#call-to-action .header-col h1:before {
-    font-family: 'FontAwesome';
-    content: "\f0ac";
-    padding-right: 10px;
-    font-size: 72px;
-    line-height: 72px;
-    text-align: left;
-    float: left;
-    color: #fff;
-}
-
-#call-to-action .action {
-    margin-top: 12px;
-}
-
-#call-to-action h2 {
-    font: 28px/36px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
-    margin-bottom: 6px;
-}
-
-#call-to-action h2 a {
-    color: inherit;
-}
-
-#call-to-action p {
-    color: #636363;
-    font-size: 17px;
-}
-
-
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-
-#call-to-action .button:hover,
-#call-to-action .button:active {
-    background: #FFFFFF;
-    color: #0D0D0D;
-}
-
-#call-to-action p span {
-    font-family: 'opensans-semibold', sans-serif;
-    color: #D8D8D8;
-}
-
-
-/* Flex Slider
-/* ------------------------------------------------------------------ */
-
-
-/* Reset */
-
-.flexslider a:active,
-.flexslider a:focus {
-    outline: none;
-}
-
-.slides,
-.flex-control-nav,
-.flex-direction-nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.slides li {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* Necessary Styles */
-
-.flexslider {
-    position: relative;
-    zoom: 1;
-    margin: 0;
-    padding: 0;
-}
-
-.flexslider .slides {
-    zoom: 1;
-}
-
-.flexslider .slides>li {
-    position: relative;
-}
-
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-
-.flexslider .slides>li {
-    display: none;
-    -webkit-backface-visibility: hidden;
-}
-
-
-/* Suggested container for slide animation setups. Can replace this with your own */
-
-.flex-container {
-    zoom: 1;
-    position: relative;
-}
-
-
-/* Clearfix for .slides */
-
-.slides:before,
-.slides:after {
-    content: " ";
-    display: table;
-}
-
-.slides:after {
-    clear: both;
-}
-
-
-/* No JavaScript Fallback */
-
-
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-
-.no-js .slides>li:first-child {
-    display: block;
-}
-
-
-/* Slider Styles */
-
-.slides {
-    zoom: 1;
-}
-
-.slides>li {
-    /*margin-right: 5px; */
-    overflow: hidden;
-}
-
-
-/* Control Nav */
-
-.flex-control-nav {
-    width: 100%;
-    position: absolute;
-    bottom: -20px;
-    text-align: left;
-}
-
-.flex-control-nav li {
-    margin: 0 6px;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-}
-
-.flex-control-paging li a {
-    width: 12px;
-    height: 12px;
-    display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
-    cursor: pointer;
-    text-indent: -9999px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
-}
-
-.flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
-}
-
-.flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
-    cursor: default;
-}
-
-
-/* ------------------------------------------------------------------ */
-
-
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
-
-#contact {
-    background: #191919;
-    padding-top: 96px;
-    padding-bottom: 102px;
-    color: #636363;
-}
-
-#contact .section-head {
-    margin-bottom: 42px;
-}
-
-#contact a,
-#contact a:visited {
-    color: #11ABB0;
-}
-
-#contact a:hover,
-#contact a:focus {
-    color: #fff;
-}
-
-#contact h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #EBEEEE;
-    margin-bottom: 6px;
-}
-
-#contact h1 span {
-    display: none;
-}
-
-#contact h1:before {
-    font-family: 'FontAwesome';
-    content: "\f0e0";
-    padding-right: 10px;
-    font-size: 72px;
-    line-height: 72px;
-    text-align: left;
-    float: left;
-    color: #ebeeee;
-}
-
-#contact h4 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
-    margin-bottom: 6px;
-}
-
-#contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
-    padding-right: 3%;
-}
-
-#contact .header-col {
-    padding-top: 6px;
-}
-
-
-/* contact form */
-
-#contact form {
-    margin-bottom: 30px;
-}
-
-#contact label {
-    font: 15px/24px 'opensans-bold', sans-serif;
-    margin: 12px 0;
-    color: #EBEEEE;
-    display: inline-block;
-    float: left;
-    width: 26%;
-}
-
-#contact input,
-#contact textarea,
-#contact select {
-    padding: 18px 20px;
-    color: #eee;
-    background: #373233;
-    margin-bottom: 42px;
-    border: 0;
-    outline: none;
-    font-size: 15px;
-    line-height: 24px;
-    width: 65%;
-}
-
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-    color: #fff;
-    background-color: #11ABB0;
-}
-
-#contact button.submit {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #fff;
-    background: #0D0D0D;
-    border: none;
-    cursor: pointer;
-    height: auto;
-    display: inline-block;
-    border-radius: 3px;
-    margin-left: 26%;
-}
-
-#contact button.submit:hover {
-    color: #0D0D0D;
-    background: #fff;
-}
-
-#contact span.required {
-    color: #11ABB0;
-    font-size: 13px;
-}
-
-#message-warning,
-#message-success {
-    display: none;
-    background: #0F0F0F;
-    padding: 24px 24px;
-    margin-bottom: 36px;
-    width: 65%;
-    margin-left: 26%;
-}
-
-#message-warning {
-    color: #D72828;
-}
-
-#message-success {
-    color: #11ABB0;
-}
-
-#message-warning i,
-#message-success i {
-    margin-right: 10px;
-}
-
-#image-loader {
-    display: none;
-    position: relative;
-    left: 18px;
-    top: 17px;
-}
-
-
-/* Twitter Feed */
-
-#twitter {
-    margin-top: 12px;
-    padding: 0;
-}
-
-#twitter li {
-    margin: 6px 0px 12px 0;
-    line-height: 30px;
-}
-
-#twitter li span {
-    display: block;
-}
-
-#twitter li b a {
-    font: 13px/36px 'opensans-regular', Sans-serif;
-    color: #474747 !important;
-    border: none;
 }
 
 
