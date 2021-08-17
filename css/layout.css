@@ -71,7 +71,7 @@ header .banner-text {
 
 header .banner-text h1 {
     font: 1.1em 'opensans-bold', sans-serif;
-    color: #fff;
+    color: azure;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -79,7 +79,7 @@ header .banner-text h1 {
 
 header .banner-text h3 {
     font: 20px/1.9em 'opensans-light', serif;
-    color: #A8A8A8;
+    color: papayawhip;
     margin: 0 auto;
     width: 70%;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -87,7 +87,7 @@ header .banner-text h3 {
 
 header .banner-text h3 span,
 header .banner-text h3 a {
-    color: #fff;
+    color: salmon;
 }
 
 header .banner-text hr {
@@ -176,7 +176,7 @@ header .scrolldown a:hover {
 }
 
 .opaque {
-    background-color: #EC6D69;
+    background-color: salmon;
     opacity: 98%;
 }
 
@@ -211,7 +211,7 @@ ul#nav li a {
     line-height: 32px;
     text-decoration: none;
     text-align: left;
-    color: #fff;
+    color: azure;
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -o-transition: color .2s ease-in-out;
@@ -224,7 +224,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: burlywood;
+    color: saddlebrown;
 }
 
 
@@ -237,15 +237,13 @@ ul#nav li.current a {
 #about {
     padding-top: 96px;
     padding-bottom: 66px;
-    min-height: 500px;
     background: #161415 url(../images/about-bg.svg) no-repeat top center;
-    position: relative;
+    position: inherit;
     width: 100%;
     height: 100%;
     background-size: cover !important;
     -webkit-background-size: cover !important;
-    text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #about a,
@@ -317,10 +315,9 @@ ul#nav li.current a {
     background: #161415 url(../images/background.svg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
-    text-align: center;
     padding-top: 90px;
     padding-bottom: 72px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #resume a,
@@ -442,8 +439,10 @@ ul#nav li.current a {
 #portfolio {
     position: relative;
     width: 100%;
-    background: #161415 url(../images/portfolio-bg.svg) no-repeat top center;
-    background-size: cover !important;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    background: #161415 url(../images/portfolio-bg.svg) top center;
+    background-size: contain !important;
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
@@ -464,6 +463,7 @@ ul#nav li.current a {
     margin-bottom: 36px;
     height: 50%;
     width: 50%;
+    overflow: hidden;
 }
 
 .portfolio-item .item-wrap {

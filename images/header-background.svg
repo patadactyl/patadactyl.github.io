@@ -4,14 +4,21 @@
       <stop offset="0" stop-color="#001222"/>
       <stop offset="1" stop-color="#00060c"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fdca72"/>
       <stop offset="1" stop-color="#ec6d69"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.298" x2="0.5" y2="0.868" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#00060c" stop-opacity="0"/>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00060c"/>
       <stop offset="1" stop-color="#00060c"/>
     </linearGradient>
+    <filter id="Rectangle_587" x="-98.5" y="976.5" width="2127" height="707" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="34.5" result="blur"/>
+      <feFlood flood-color="#00060c"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
     <clipPath id="clip-header-background">
       <rect width="1920" height="1080"/>
     </clipPath>
@@ -20,16 +27,22 @@
     <rect width="1920" height="1080" fill="url(#linear-gradient)"/>
     <g id="Group_369" data-name="Group 369" transform="translate(464.775 -2113.081) rotate(37)">
       <path id="Path_162" data-name="Path 162" d="M1403.605,77.965c119.209-87.907,291.433-86.519,412.219,3.323l1290.695,960.033c239.41,178.076,105.417,526.922-201.442,524.448L340.539,1545.1c-306.859-2.473-447.061-353.53-210.777-527.771Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1055.572, 4535.638)" fill="#001222"/>
-      <path id="Path_163" data-name="Path 163" d="M1403.605,77.965c119.209-87.907,291.433-86.519,412.219,3.323l1290.695,960.033c239.41,178.076,105.417,526.922-201.442,524.448L340.539,1545.1c-306.859-2.473-447.061-353.53-210.777-527.771Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1055.572, 4535.638)" fill="#001222" opacity="0.5"/>
+      <path id="Path_163" data-name="Path 163" d="M1403.605,77.965c119.209-87.907,291.433-86.519,412.219,3.323l1290.695,960.033c239.41,178.076,105.417,526.922-201.442,524.448L340.539,1545.1c-306.859-2.473-447.061-353.53-210.777-527.771Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1055.572, 4535.638)" opacity="0.5" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Group_366" data-name="Group 366" transform="matrix(0.629, 0.777, -0.777, 0.629, 99.927, -2221.241)">
-      <path id="Path_162-2" data-name="Path 162" d="M1403.605,77.965c119.209-87.907,291.433-86.519,412.219,3.323l1290.695,960.033c239.41,178.076,105.417,526.922-201.442,524.448L340.539,1545.1c-306.859-2.473-447.061-353.53-210.777-527.771Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1055.572, 4535.638)" fill="url(#linear-gradient-2)"/>
-      <path id="Path_163-2" data-name="Path 163" d="M1403.605,77.965c119.209-87.907,291.433-86.519,412.219,3.323l1290.695,960.033c239.41,178.076,105.417,526.922-201.442,524.448L340.539,1545.1c-306.859-2.473-447.061-353.53-210.777-527.771Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1055.572, 4535.638)" fill="#ec6d69" opacity="0.5"/>
-    </g>
-    <g id="Group_366-2" data-name="Group 366" transform="matrix(0.985, -0.174, 0.174, 0.985, 114.888, -1411.023)">
-      <path id="Path_160" data-name="Path 160" d="M1034.523,73.051c88.222-94.3,212.107-97.652,296.52-8.025l902.019,957.734c167.314,177.649,61.2,542.429-159.533,548.4L228.792,1621.09C8.06,1627.064-83.059,1267.622,91.8,1080.712Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1084.905, 3421.393)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_366" data-name="Group 366" transform="translate(-414.496 -561.405) rotate(-30)">
+      <path id="Path_160" data-name="Path 160" d="M1034.523,73.051c88.222-94.3,212.107-97.652,296.52-8.025l902.019,957.734c167.314,177.649,61.2,542.429-159.533,548.4L228.792,1621.09C8.06,1627.064-83.059,1267.622,91.8,1080.712Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1084.905, 3421.393)" fill="url(#linear-gradient-3)"/>
       <path id="Path_161" data-name="Path 161" d="M1034.523,73.051c88.222-94.3,212.107-97.652,296.52-8.025l902.019,957.734c167.314,177.649,61.2,542.429-159.533,548.4L228.792,1621.09C8.06,1627.064-83.059,1267.622,91.8,1080.712Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1084.905, 3421.393)" fill="#ec6d69" opacity="0.5"/>
     </g>
-    <rect id="Rectangle_583" data-name="Rectangle 583" width="1920" height="1080" fill="url(#linear-gradient-4)"/>
+    <g id="Group_366-2" data-name="Group 366" transform="translate(-3574.09 -2337.332) rotate(-35)">
+      <path id="Polygon_2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-3)"/>
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_382" data-name="Group 382" transform="translate(-4045.429 4000.671) rotate(-97)">
+      <path id="Polygon_2-3" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-3)"/>
+      <path id="Polygon_2-4" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_587)">
+      <rect id="Rectangle_587-2" data-name="Rectangle 587" width="1920" height="500" transform="translate(0 1070)" fill="url(#linear-gradient-6)"/>
+    </g>
   </g>
 </svg>
