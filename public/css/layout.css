@@ -224,7 +224,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: saddlebrown;
+    color: #001222;
 }
 
 
@@ -317,7 +317,7 @@ ul#nav li.current a {
     -webkit-background-size: cover !important;
     padding-top: 90px;
     padding-bottom: 72px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #resume a,
