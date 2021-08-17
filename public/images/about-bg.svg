@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fdca72"/>
-      <stop offset="1" stop-color="#ec6d69"/>
+      <stop offset="0" stop-color="#001222"/>
+      <stop offset="1" stop-color="#00060c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.263" y1="0.332" x2="0.529" y2="0.705" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001222"/>
+      <stop offset="1" stop-color="#001222" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="clip-about-bg">
       <rect width="1920" height="1080"/>
@@ -10,13 +14,12 @@
   </defs>
   <g id="about-bg" clip-path="url(#clip-about-bg)">
     <rect width="1920" height="1080" fill="#00060c"/>
-    <g id="Group_366" data-name="Group 366" transform="matrix(-0.951, -0.309, 0.309, -0.951, 3867.073, 3035.958)">
-      <path id="Polygon_2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient)"/>
-      <path id="Polygon_2-2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    <g id="Group_366" data-name="Group 366" transform="translate(4455.887 1224.269) rotate(129)" opacity="0.5">
+      <path id="Path_163" data-name="Path 163" d="M1392.586,1487.818c119.209,87.907,291.433,86.519,412.219-3.323L3095.5,524.462C3334.909,346.387,3200.916-2.46,2894.057.014L329.519,20.685C22.66,23.159-117.542,374.215,118.742,548.456Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 1827.406, 135.338)" opacity="0.5" fill="url(#linear-gradient)"/>
+      <path id="Path_162" data-name="Path 162" d="M1392.586,1487.818c119.209,87.907,291.433,86.519,412.219-3.323L3095.5,524.462C3334.909,346.387,3200.916-2.46,2894.057.014L329.519,20.685C22.66,23.159-117.542,374.215,118.742,548.456Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 1827.406, 135.338)" opacity="0.5" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Group_366-2" data-name="Group 366" transform="translate(-1060.097 -2244.961) rotate(17)">
-      <path id="Polygon_2-3" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.551,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.036Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 2393.439, 172.394)" fill="url(#linear-gradient)"/>
-      <path id="Polygon_2-4" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 2393.439, 172.394)" fill="#ec6d69" opacity="0.5"/>
+    <g id="Group_370" data-name="Group 370" transform="matrix(-0.819, 0.574, -0.574, -0.819, 1843.253, 1230.641)" opacity="0.5">
+      <path id="Polygon_2" data-name="Polygon 2" d="M1475.27,185.418a360,360,0,0,1,454.922,0l691.335,563.552c262.486,213.97,111.187,639.037-227.461,639.037H1011.4c-338.648,0-489.948-425.067-227.461-639.037Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 1679.532, 120.973)" fill="url(#linear-gradient-3)"/>
     </g>
   </g>
 </svg>

@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="12872" viewBox="0 0 1920 12872">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00060c"/>
+      <stop offset="1" stop-color="#001222"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fdca72"/>
       <stop offset="1" stop-color="#ec6d69"/>
     </linearGradient>
@@ -10,17 +14,44 @@
   </defs>
   <g id="background" clip-path="url(#clip-background)">
     <rect width="1920" height="12872" fill="#001222"/>
-    <g id="Group_361" data-name="Group 361" transform="translate(4564.779 9091) rotate(180)">
-      <path id="Polygon_2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient)"/>
-      <path id="Polygon_2-2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    <g id="Group_380" data-name="Group 380" transform="matrix(0.985, -0.174, 0.174, 0.985, -1701.493, 6162.941)" opacity="0.5">
+      <path id="Polygon_2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" opacity="0.5" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Group_367" data-name="Group 367" transform="translate(-2644 1571)">
-      <path id="Polygon_2-3" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient)"/>
-      <path id="Polygon_2-4" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    <g id="Group_381" data-name="Group 381" transform="matrix(-0.985, -0.174, 0.174, -0.985, 2138.815, 12894.238)" opacity="0.63">
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.551,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.647,0-489.947-425.067-227.461-639.036Z" transform="matrix(0.087, -0.996, 0.996, 0.087, 0, 4834.532)" opacity="0.5" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Group_368" data-name="Group 368" transform="translate(2099.061 10353.203) rotate(169)">
-      <path id="Polygon_2-5" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient)"/>
-      <path id="Polygon_2-6" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    <g id="Group_379" data-name="Group 379" transform="translate(4216.671 5640.203) rotate(169)">
+      <path id="Polygon_2-3" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" opacity="0.5" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_378" data-name="Group 378" transform="matrix(0.985, -0.174, 0.174, 0.985, -1089.493, 4393.941)" opacity="0.5">
+      <path id="Polygon_2-4" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" opacity="0.5" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_377" data-name="Group 377" transform="translate(3133.671 7114.203) rotate(169)" opacity="0.51">
+      <path id="Polygon_2-5" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" opacity="0.5" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_371" data-name="Group 371" transform="translate(4496.39 6360) rotate(180)">
+      <path id="Polygon_2-6" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-7" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_372" data-name="Group 372" transform="translate(-2712.39 -1160)">
+      <path id="Polygon_2-8" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-9" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_373" data-name="Group 373" transform="translate(1893.671 7766.203) rotate(169)">
+      <path id="Polygon_2-10" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-11" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, -0.996, 0.996, -0.087, 1091.637, 5598.464)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_374" data-name="Group 374" transform="translate(-1956.72 6413.536)">
+      <path id="Polygon_2-12" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(0.087, -0.996, 0.996, 0.087, 0, 4834.533)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-13" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(0.087, -0.996, 0.996, 0.087, 0, 4834.533)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_375" data-name="Group 375" transform="translate(1521.28 5083.537)">
+      <path id="Polygon_2-14" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 2393.44, 172.394)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-15" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(-0.087, 0.996, -0.996, -0.087, 2393.44, 172.394)" fill="#ec6d69" opacity="0.5"/>
+    </g>
+    <g id="Group_376" data-name="Group 376" transform="translate(1750.951 7906.187) rotate(11)">
+      <path id="Polygon_2-16" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(0.087, -0.996, 0.996, 0.087, 0, 4834.533)" fill="url(#linear-gradient-6)"/>
+      <path id="Polygon_2-17" data-name="Polygon 2" d="M2199.039,185.419a360,360,0,0,1,454.922,0l1415.1,1153.545C4331.552,1552.933,4180.251,1978,3841.6,1978H1011.4c-338.648,0-489.947-425.067-227.461-639.037Z" transform="matrix(0.087, -0.996, 0.996, 0.087, 0, 4834.533)" fill="#ec6d69" opacity="0.5"/>
     </g>
   </g>
 </svg>
