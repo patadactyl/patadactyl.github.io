@@ -1,4 +1,22 @@
 import React, { Component } from 'react';
+import GitHubCalendar from 'react-github-calendar';
+
+var selectLastHalfYear = contributions => {
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const shownMonths = 6;
+
+  return contributions.filter(day => {
+    const date = new Date(day.date);
+    const monthOfDay = date.getMonth();
+
+    return (
+      date.getFullYear() === currentYear &&
+      monthOfDay > currentMonth - shownMonths &&
+      monthOfDay <= currentMonth
+    );
+ });
+};
 
 class Portfolio extends Component {
   render() {
@@ -21,7 +39,7 @@ class Portfolio extends Component {
           </div>
         </div>
       })
-    }
+    } 
 
     return (
       <section id="portfolio">
@@ -31,8 +49,16 @@ class Portfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>
+            <h1>GitHub Contributions</h1>
+                <GitHubCalendar 
+                  username="patadactyl"
+                  //transformData={selectLastHalfYear} 
+                  hideTotalCount 
+                  hideColorLegend
+                />
           </div>
       </div>
+
    </section>
     );
   }
