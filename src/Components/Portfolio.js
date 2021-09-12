@@ -50,15 +50,21 @@ class Portfolio extends Component {
                 {projects}
             </div>
             <h1>GitHub Contributions</h1>
-                <GitHubCalendar 
+            <div style={{
+                  font: 'opensans-bold',
+                  color: 'papayawhip',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',}}>
+                <GitHubCalendar
                   username="patadactyl"
-                  //transformData={selectLastHalfYear} 
+                  transformData={selectLastHalfYear} 
                   hideTotalCount 
                   hideColorLegend
                 />
+            </div>
           </div>
       </div>
-
    </section>
     );
   }
